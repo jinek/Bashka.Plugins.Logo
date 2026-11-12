@@ -12,6 +12,7 @@
         <!--Bashka will search for plugin by this tag-->
         <PackageTags>bashka-plugin</PackageTags>
         <PackageReadmeFile>readme.md</PackageReadmeFile>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <UseAppHost>false</UseAppHost>
         <EnableDynamicLoading>true</EnableDynamicLoading>
     </PropertyGroup>
@@ -21,6 +22,7 @@
     </ItemGroup>
     <ItemGroup>
         <None Update="readme.md" Pack="true" PackagePath="/"/>
+        <None Include="../../LICENSE" Pack="true" PackagePath="/"/>
     </ItemGroup>
     <ItemGroup>
         <Folder Include="Assets\"/>
