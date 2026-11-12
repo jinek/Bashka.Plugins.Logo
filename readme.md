@@ -1,1 +1,41 @@
-Example plugin
+# Bashka.Plugins.Logo
+
+A demonstration plugin for Bashka that
+customizes the About view with a colored ANSI BASHKA logo.
+
+The sample shows how to register a visual extension with Autofac, load Avalonia
+styles, replace the `ContentControl.Bashka.AboutLogo` content template, and display
+an embedded `.ans` asset. It adds no commands.
+
+## Run the demonstration
+
+Install the .NET 10 SDK, then run from the repository root:
+
+```sh
+dotnet run --project src/Bashka.Plugins.Logo/Bashka.Plugins.Logo
+```
+
+Open Bashka's About view to see the logo.
+
+## Explore the example
+
+The project lives in `src/Bashka.Plugins.Logo/Bashka.Plugins.Logo`:
+
+- `PluginModule.cs` registers the visual extension.
+- `PluginVisualExtension.cs` provides the style resource URI.
+- `Styles.axaml` defines the logo content template.
+- `Assets/Bashka.ans` contains the ANSI lettering and colors.
+- `Program.cs` starts the development host with the plugin loaded.
+
+## Package
+
+```sh
+dotnet pack src/Bashka.Plugins.Logo/Bashka.Plugins.Logo -c Release
+```
+
+The NuGet package uses the `bashka-plugin` discovery tag and includes its own
+[README](src/Bashka.Plugins.Logo/Bashka.Plugins.Logo/readme.md).
+
+## License
+
+See [LICENSE](LICENSE).
