@@ -8,6 +8,11 @@
         <!--Bashka will search for this assembly by NUGET package name-->
         <PackageId>$(AssemblyName)</PackageId>
         <Version>1.0.0</Version>
+        <PackageProjectUrl>https://github.com/jinek/Bashka.Plugins.Logo</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jinek/Bashka.Plugins.Logo</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Authors>Evgeny Gorbovoy</Authors>
+        <Copyright>Copyright (c) 2026 Evgeny Gorbovoy</Copyright>
         <Description>Demonstration plugin for Bashka showing how to register a visual extension, load Avalonia styles, and display an embedded ANSI BASHKA logo in the About view.</Description>
         <!--Bashka will search for plugin by this tag-->
         <PackageTags>bashka-plugin</PackageTags>
