@@ -7,6 +7,9 @@ The sample shows how to register a visual extension with Autofac, load Avalonia
 styles, replace the `ContentControl.Bashka.AboutLogo` content template, and display
 an embedded `.ans` asset. It adds no commands.
 
+<img width="1870" height="841" alt="image" src="https://github.com/user-attachments/assets/5a42ba5d-ef49-4341-b70f-b59644921faf" />
+
+
 ## Run the demonstration
 
 Install the .NET 10 SDK, then run from the repository root:
