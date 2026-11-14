@@ -12,17 +12,22 @@ an embedded `.ans` asset. It adds no commands.
 
 ## Run the demonstration
 
+Run [Bashka](https://github.com/jinek/bashka/) normally, open **Plugins**, and
+install `Bashka.Plugins.Logo`. Open the About view to see the logo.
+
+### Run from source
+
 Install the .NET 10 SDK, then run from the repository root:
 
 ```sh
-dotnet run --project src/Bashka.Plugins.Logo/Bashka.Plugins.Logo
+dotnet run --project src/Bashka.Plugins.Logo
 ```
 
 Open Bashka's About view to see the logo.
 
 ## Explore the example
 
-The project lives in `src/Bashka.Plugins.Logo/Bashka.Plugins.Logo`:
+The project lives in `src/Bashka.Plugins.Logo`:
 
 - `PluginModule.cs` registers the visual extension.
 - `PluginVisualExtension.cs` provides the style resource URI.
@@ -33,11 +38,11 @@ The project lives in `src/Bashka.Plugins.Logo/Bashka.Plugins.Logo`:
 ## Package
 
 ```sh
-dotnet pack src/Bashka.Plugins.Logo/Bashka.Plugins.Logo -c Release
+dotnet pack src/Bashka.Plugins.Logo -c Release
 ```
 
-The NuGet package uses the `bashka-plugin` discovery tag and includes its own
-[README](src/Bashka.Plugins.Logo/Bashka.Plugins.Logo/readme.md).
+The NuGet package uses the `bashka-plugin` discovery tag and includes this
+repository README, including the screenshot.
 
 ## License
 
