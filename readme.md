@@ -1,6 +1,6 @@
 # Bashka.Plugins.Logo
 
-A demonstration plugin for Bashka that
+A demonstration plugin for [Bashka](https://github.com/jinek/bashka/) that
 customizes the About view with a colored ANSI BASHKA logo.
 
 The sample shows how to register a visual extension with Autofac, load Avalonia
