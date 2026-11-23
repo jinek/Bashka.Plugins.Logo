@@ -7,7 +7,7 @@
         <IsPackable>true</IsPackable>
         <!--Bashka will search for this assembly by NUGET package name-->
         <PackageId>$(AssemblyName)</PackageId>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
         <PackageProjectUrl>https://github.com/jinek/Bashka.Plugins.Logo</PackageProjectUrl>
         <RepositoryUrl>https://github.com/jinek/Bashka.Plugins.Logo</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
@@ -22,8 +22,8 @@
         <EnableDynamicLoading>true</EnableDynamicLoading>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Bashka.Plugins" Version="1.0.3" ExcludeAssets="runtime"/>
-        <PackageReference Include="Bashka.Launcher" Version="1.0.3" PrivateAssets="all"/>
+        <PackageReference Include="Bashka.Plugins" Version="2.0.9" ExcludeAssets="runtime"/>
+        <PackageReference Include="Bashka.Launcher" Version="2.0.9" PrivateAssets="all"/>
     </ItemGroup>
     <ItemGroup>
         <None Include="../../readme.md" Pack="true" PackagePath="/"/>
